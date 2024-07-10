@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import Logo from '../images/Group 1.png';
 
 function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -24,7 +25,7 @@ function Header() {
           <div className="flex-shrink-0 mr-4">
             {/* Logo */}
             <Link to="/" className="block" aria-label="Cruip">
-              <img className="h-8 w-auto" src="/src/images/Group 1.png" alt="Cruip" width="32" height="32" />
+              <img className="h-8 w-auto" src={Logo} alt="Cruip" width="32" height="32" />
             </Link>
           </div>
 
