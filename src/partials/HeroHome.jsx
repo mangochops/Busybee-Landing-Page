@@ -81,7 +81,7 @@ function HeroHome() {
                 <div>
                   <a
                     className="btn text-gray-900 bg-yellow-400 hover:bg-yellow-500 bg-opacity-90 hover:bg-opacity-100 w-full mb-4 sm:w-auto sm:mb-0"
-                    href="#0"
+                    href="https://busybeee.vercel.app/"
                   >
                     Get started
                   </a>

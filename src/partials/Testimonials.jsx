@@ -1,6 +1,6 @@
 import React from 'react';
 
-import TestimonialImage from '../images/62019384_1392234224234702_694478599111713446_n.jpg';
+import TestimonialImage from '../images/Ellipse 1.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
@@ -157,17 +157,17 @@ function Testimonials() {
                   <span>Software Engineer</span>
                   <div className="text-gray-600 flex items-center justify-center">
                     {/* GitHub */}
-                    <a href="#0" className="text-blue-600 hover:underline mr-4">
+                    <a href="https://github.com/mangochops/Busybee-Landing-Page" className="text-blue-600 hover:underline mr-4">
                       <FontAwesomeIcon icon={faGithub} className='w-8 h-8'/>
                     </a>
 
                     {/* Twitter */}
-                    <a href="#0" className="text-blue-600 hover:underline mr-4">
+                    <a href="https://www.twitter.com/mangoes4mbugua/" className="text-blue-600 hover:underline mr-4">
                       <FontAwesomeIcon icon={faTwitter} className='w-8 h-8'/>
                     </a>
 
                     {/* LinkedIn */}
-                    <a href="#0" className="text-blue-600 hover:underline">
+                    <a href="https://www.linkedin.com/in/willicent-mbugua-83b1a3249/" className="text-blue-600 hover:underline">
                       <FontAwesomeIcon icon={faLinkedin} className='w-8 h-8'/>
                     </a>
                   </div>

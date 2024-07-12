@@ -11,6 +11,11 @@ import './css/style.css';
 import AOS from 'aos';
 
 import Home from './pages/Home';
+import Features from './partials/Features';
+import HeroHome from './partials/HeroHome';
+import FeaturesBlocks from './partials/FeaturesBlocks';
+import Testimonials from './partials/Testimonials';
+import Footer from './partials/Footer';
 
 
 function App() {
@@ -36,6 +41,11 @@ function App() {
     <>
       <Routes>
         <Route exact path="/" element={<Home />} />
+        <Route exact path="/HeroHome" element={<HeroHome />} />
+        <Route exact path="/Features" element={<Features />} />
+        <Route exact path="/FeaturesBlock" element={<FeaturesBlocks />} />
+        <Route exact path="/Testimonials" element={<Testimonials />} />
+        <Route exact path="/Footer" element={<Footer />} />
         
       </Routes>
     </>
